@@ -46,3 +46,24 @@ html {
     margin-right: 0.3em;
 }
 /* End Header */
+
+/* Main Section */
+.main-container {
+    width: 90%;
+    height: calc(100vh - 3em);
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: baseline;
+}
+
+.main-cont-img {
+    width: calc(100% / 7);
+    height: calc(100% / 5);
+}
+
+.main-cont-img {
+    padding: 0.3em;
+}
+/* End Main Section */
